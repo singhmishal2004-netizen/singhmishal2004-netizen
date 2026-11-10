@@ -25,42 +25,37 @@ I'm an AI and data science engineer who enjoys moving past basic chatbots toward
 
 ---
 
-## Featured project
+## Featured projects
 
-### [DataSage: Multi-agent SQL analytics and ETL automation](https://github.com/singhmishal2004-netizen/DATASAGE-Multi-Agent-Orchestration-for-SQL-Analytics-and-ETL-Automation)
-
-A conversational data platform. A LangGraph router sends each request to a **SQL Analyst** (read-only analytics) or an **ETL Analyst** (API extraction and controlled transformations).
-
-- **3 agents:** a router plus two specialists, each with a single responsibility.
-- **Schema-aware SQL:** reads PostgreSQL schema context before generating a query.
-- **Validate before execute:** SQLGlot-based SQL guard blocks write and DDL statements; ETL runs only allowlisted Pandas operations, never LLM-generated code.
-- **Full deployment:** Streamlit Community Cloud (UI), FastAPI on Render (API), Neon PostgreSQL (61,073 sample records across 5 tables).
-
-`LangGraph` `LangChain` `FastAPI` `Streamlit` `PostgreSQL` `SQLGlot` `Pandas`
-
----
-
-## Projects
+Six pinned repositories, ordered by depth. Each name links to its repo.
 
 | Project | What it does | Focus |
 |---|---|---|
-| **Cognivault** | Production-oriented agentic RAG platform with ingestion pipelines, an LLM gateway, guardrails and intelligent planning | Agentic RAG, LLM infrastructure, guardrails |
-| **ResearchX** | Multi-agent RAG system that supports research workflows and verifies information across retrieved sources | Multi-agent systems, RAG, verification |
-| **HR-NEXUS** | Agentic RAG copilot that answers employee questions from enterprise HR policy knowledge | Agentic RAG, knowledge retrieval |
-| **Guardrails Multi-Agent Travel AI** | Coordinates travel tasks across multiple agents while applying guardrails to their workflows | Multi-agent AI, orchestration, guardrails |
-| **TRIPMATE AI** | Travel assistant that uses the Model Context Protocol to connect an LLM workflow to external tools | MCP, tool integration |
-| **JobFinder AI MCP** | AI-assisted job discovery built on MCP-based tool integration | MCP, AI agents, automation |
-| **LLM From Scratch** | Step-by-step build from a bigram language model toward a GPT-style architecture | Transformers, LLM fundamentals |
+| **[DataSage](https://github.com/singhmishal2004-netizen/DATASAGE-Multi-Agent-Orchestration-for-SQL-Analytics-and-ETL-Automation.)** | Conversational data platform: a LangGraph router sends requests to a SQL Analyst (read-only analytics) or an ETL Analyst (API extraction and controlled transformations), with dynamic LLM selection by task complexity | LangGraph, SQL guardrails, ETL, FastAPI |
+| **[Cognivault](https://github.com/singhmishal2004-netizen/Cognivault-Production-Grade-Agentic-RAG-LLM-Infrastructure)** | Production-oriented agentic RAG platform with ingestion and processing pipelines, an LLM gateway with integrated guardrails, and intelligent planning | Agentic RAG, LLM infrastructure, guardrails |
+| **[HR-NEXUS](https://github.com/singhmishal2004-netizen/HR-NEXUS--Enterprise-HR-Policy-Employee-Support-Agentic-RAG-Copilot.)** | Agentic RAG copilot that answers employee questions from enterprise HR policy knowledge | Agentic RAG, knowledge retrieval |
+| **[Guardrails Multi-Agent Travel AI](https://github.com/singhmishal2004-netizen/Guardrails_MultiAgent_TRAVEL-AI-Orchestrator)** | Orchestrates travel tasks across multiple agents while applying guardrails to their workflows | Multi-agent AI, orchestration, guardrails |
+| **[VoyageX](https://github.com/singhmishal2004-netizen/VoyageX-Multi-Agent-Travel-Intelligence)** | Multi-agent travel intelligence project | Multi-agent AI, travel intelligence |
+| **[JobFinder AI MCP](https://github.com/singhmishal2004-netizen/JobFinder-AI-MCP)** | AI-assisted job discovery built on MCP-based tool integration | MCP, AI agents, automation |
 
-<!-- TODO: link each project name to its repository, e.g. **[Cognivault](https://github.com/singhmishal2004-netizen/<repo-name>)** -->
+### Spotlight: DataSage
+
+- **3 agents:** a router plus two specialists, each with a single responsibility.
+- **Schema-aware SQL:** reads PostgreSQL schema context before generating a query.
+- **Validate before execute:** SQL guard blocks write and DDL statements; ETL runs only allowlisted Pandas operations, never LLM-generated code.
+- **Full deployment:** Streamlit Community Cloud (UI), FastAPI on Render (API), Neon PostgreSQL (61,073 sample records across 5 tables).
+
+`LangGraph` `LangChain` `FastAPI` `Streamlit` `PostgreSQL` `SQLGlot` `Pandas`
 
 <details>
 <summary><b>More projects</b></summary>
 
 <br>
 
+- **ResearchX:** multi-agent RAG system that supports research workflows and verifies information across retrieved sources.
+- **TRIPMATE AI:** travel assistant using the Model Context Protocol to connect an LLM workflow to external tools.
+- **LLM From Scratch:** step-by-step build from a bigram language model toward a GPT-style architecture.
 - **Fine-tuning on YouTube transcript data:** continued pretraining and QLoRA-based instruction fine-tuning experiments.
-- **VoyageX (Travel Intelligence):** AI-focused travel intelligence project.
 - **SQL Data Warehouse:** SQL Server data warehousing, ETL, data modelling and analytics.
 - **MovieLens AI:** movie recommendation system.
 - **Movie Sentiment Analysis (LSTM):** deep-learning text sentiment classification.
